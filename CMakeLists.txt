@@ -18,6 +18,15 @@ find_package(PkgConfig REQUIRED)
 # Append our module directory to CMake
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 
+# dependeny install
+include(libuuid)
+include(libuv)
+include(libzip)
+include(libopenssl)
+include(liblz4-r131)
+include(libJudy)
+include(libjson-c)
+
 # -----------------------------------------------------------------------------
 # Set compilation options according to build type
 
