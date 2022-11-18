@@ -215,3 +215,14 @@ externaldeps/
 
 # netdata packing directory
 install
+
+# dependence
+!depend/libuuid-1.0.3.tar.gz
+!depend/Judy-1.0.5.tar.gz
+depend/libuuid-1.0.3
+depend/libuv-1.42.0
+depend/zlib-1.2.9
+depend/openssl-OpenSSL_1_1_0-stable
+depend/lz4-r131
+depend/judy-1.0.5
+depend/json-c-json-c-0.15
