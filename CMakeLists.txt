@@ -15,6 +15,8 @@ find_package(PkgConfig REQUIRED)
 # set this to see the compilation commands
 # set(CMAKE_VERBOSE_MAKEFILE 1)
 
+# Append our module directory to CMake
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 
 # -----------------------------------------------------------------------------
 # Set compilation options according to build type
@@ -1385,3 +1387,6 @@ endif()
 
 endif()
 endif()
+
+# packing netdata
+include(packing)
