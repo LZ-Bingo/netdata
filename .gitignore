@@ -209,3 +209,9 @@ netdata.cbp
 
 # External dependencies
 externaldeps/
+
+# cmake build sapce
+.build
+
+# netdata packing directory
+install
